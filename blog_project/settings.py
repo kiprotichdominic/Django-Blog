@@ -128,7 +128,7 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     STATIC_DIR
 ]
-STATICFILES_STORAGE = = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+STATICFILES_STORAGE ='whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 # redirect on succesful login
 LOGIN_REDIRECT_URL = 'home'
